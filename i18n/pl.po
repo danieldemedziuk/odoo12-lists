@@ -1,0 +1,147 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* lists
+#
+# Translators:
+# Daniel Demedziuk <daniel.demedziuk@gmail.com>, 2020
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-04 08:40+0000\n"
+"PO-Revision-Date: 2020-11-04 08:40+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lists
+#: model:ir.model.fields,help:lists.field_lists_line__status
+msgid "Current status of the case."
+msgstr "Aktualny status sprawy."
+
+#. module: lists
+#: selection:lists.line,status:0
+msgid "Cancelled"
+msgstr "Anulowane"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__create_uid
+msgid "Created by"
+msgstr "Utworzona przez"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__create_date
+msgid "Created on"
+msgstr "Data utworzenia"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__date_request
+msgid "Date of notification"
+msgstr "Data zgłoszenia"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__hours
+msgid "Number of hours spent"
+msgstr "Ilość poświęconych godzin"
+
+#. module: lists
+#: model:ir.model.fields,help:lists.field_lists_line__hours
+msgid "Number of hours spent solving the problem."
+msgstr "Ilość poświęconych godzin na rozwiązanie problemu."
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__write_uid
+msgid "Last Updated by"
+msgstr "Ostatnio aktualizowane przez"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__write_date
+msgid "Last Updated on"
+msgstr "Data ostatniej aktualizacji"
+
+#. module: lists
+#: model:ir.model,name:lists.model_lists_line
+msgid "List of service requests"
+msgstr "Lista zgłoszeń serwisowych"
+
+#. module: lists
+#: model:ir.ui.menu,name:lists.lists_menu
+#: model_terms:ir.ui.view,arch_db:lists.lists_line_tree
+msgid "List"
+msgstr "Lista"
+
+#. module: lists
+#: model:ir.actions.act_window,name:lists.lists_line_act
+#: model:ir.ui.menu,name:lists.menu_root
+msgid "List of applications"
+msgstr "Lista zgłoszeń"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__name
+msgid "Name application"
+msgstr "Nazwa zgłoszenia"
+
+#. module: lists
+#: model:ir.model.fields,help:lists.field_lists_line__applicant
+msgid "From whom the application was recorded."
+msgstr "Od kogo zostało zanotowane zgłoszenie."
+
+#. module: lists
+#: selection:lists.line,status:0
+msgid "Open"
+msgstr "Otwarte"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__employee
+msgid "Employee"
+msgstr "Pracownik"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__project
+msgid "Project"
+msgstr "Projekt"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__status
+msgid "Status"
+msgstr "Status"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__status_icon
+msgid "Status Icon"
+msgstr "Icona"
+
+#. module: lists
+#: selection:lists.line,status:0
+msgid "Done"
+msgstr "Ukończone"
+
+#. module: lists
+#: selection:lists.line,status:0
+msgid "Approved"
+msgstr "Zatwierdzone"
+
+#. module: lists
+#: model:ir.model.fields,field_description:lists.field_lists_line__applicant
+msgid "Applicant"
+msgstr "Zgłaszający"
+
