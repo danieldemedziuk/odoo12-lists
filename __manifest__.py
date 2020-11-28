@@ -6,7 +6,7 @@
     'summary': 'list, problems',
     'sequence': 20,
     'complexity': 'normal',
-    'company': 'MJ Group Sp. z.o.o',
+    'company': 'Daniel Demedziuk',
     'description': """
 Odoo Lists
 ==================================
@@ -16,7 +16,7 @@ For more information contact:\n
 email: daniel.demedziuk@gmail.com
 
 """,
-    'website': 'http://www.mjgroup.pl/',
+    'website': '',
     'summary': 'list, requests',
     'sequence': 20,
     'complexity': 'normal',
