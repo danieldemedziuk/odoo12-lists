@@ -10,30 +10,15 @@
     'description': """
 Odoo Lists
 ==================================
-This module allows you to collect and manage customer requests. The requests are assigned to employees and their implementation is controlled.
-For more information contact:\n
-
-email: daniel.demedziuk@gmail.com
-
-""",
-    'website': '',
-    'summary': 'list, requests',
-    'sequence': 20,
-    'complexity': 'normal',
-    'company': 'Daniel Demedziuk',
-    'description': """
-Odoo Lists
-==================================
 This module allows you to collect and control service requests. All over-project requests are submitted by the implementation staff.
 This allows you to easily monitor the progress of additional work. All additional requests should be recorded here. A convenient status system makes it easy to manage requests.
 For more information contact:\n
 
-email: daniel.demedziuk@mjgroup.pl
-
+email: daniel.demedziuk@gmail.com
 """,
     'website': 'website',
     'category': 'Tool',
-    'depends': ['hr', 'mail', 'contacts'],
+    'depends': ['hr', 'mail', 'project'],
     'auto_install': False,
     'application': True,
     'installable': True,

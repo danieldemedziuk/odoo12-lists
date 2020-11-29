@@ -6,16 +6,8 @@
             <field name="name">lists.line.tree</field>
             <field name="model">lists.line</field>
             <field name="arch" type="xml">
-<<<<<<< HEAD
-                <tree editable="top" string="Lista" decoration-info="status == '1'" decoration-success="status == '2'" decoration-danger="status == '3'">
-=======
                 <tree editable="top" string="List" decoration-info="status == '1'" decoration-success="status == '2'" decoration-danger="status == '3'">
->>>>>>> 5e1b0705826ff8595e2f9478fc239454f072a444
                     <field name="status_icon" string=" "/>
-<!--                    <button name="status_icon" type="object" icon='fa-ticket' attrs="{'invisible':[('status','!=','0')]}"/>-->
-<!--                    <button name="status_icon" type="object" icon="fa-check" attrs="{'invisible':['|',('status','!=','1')]}"/>-->
-<!--                    <button name="status_icon" type="object" icon="fa-star" attrs="{'invisible':['|',('status','!=','2')]}"/>-->
-<!--                    <button name="status_icon" type="object" icon="fa-times" attrs="{'invisible':['|',('status','!=','3')]}"/>-->
                     <field name="name"/>
                     <field name="date_request"/>
                     <field name="employee"/>
@@ -28,19 +20,14 @@
         </record>
 
         <record model='ir.actions.act_window' id='lists_line_act'>
-            <field name="name">Lista zgłoszeń</field>
+            <field name="name">List requests</field>
             <field name="res_model">lists.line</field>
             <field name="view_type">tree</field>
             <field name="view_mode">tree,list</field>
         </record>
 
-<<<<<<< HEAD
-        <menuitem id="menu_root" name="Lista zgłoszeń" sequence="90" web_icon="lists,static/description/icon.png"/>
-        <menuitem id="lists_menu" name="Lista" parent="menu_root" action="lists_line_act"/>
-=======
         <menuitem id="menu_root" name="List of applications" sequence="90" web_icon="lists,static/description/icon.png"/>
         <menuitem id="lists_menu" name="List" parent="menu_root" action="lists_line_act"/>
->>>>>>> 5e1b0705826ff8595e2f9478fc239454f072a444
 
     </data>
 </odoo>
