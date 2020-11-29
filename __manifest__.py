@@ -24,7 +24,7 @@ email: daniel.demedziuk@gmail.com
     'installable': True,
     'data': [
         'security/lists_security.xml',
-        'ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/lists_view.xml',
     ],
     'external_dependencies': {
