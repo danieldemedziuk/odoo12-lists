@@ -10,9 +10,9 @@
                     <field name="status_icon" string=" "/>
                     <field name="name"/>
                     <field name="date_request"/>
-                    <field name="employee"/>
+                    <field name="employee" options="{'no_create': True, 'no_create_edit':True}"/>
                     <field name="applicant"/>
-                    <field name="project"/>
+                    <field name="project" options="{'no_create': True, 'no_create_edit':True}"/>
                     <field name="hours"/>
                     <field name="status"/>
                 </tree>
